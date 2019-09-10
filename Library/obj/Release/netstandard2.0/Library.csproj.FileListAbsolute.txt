@@ -1,0 +1,9 @@
+C:\Users\ewaweru\Desktop\employees-hierarchy-master\Library\bin\Release\netstandard2.0\Library.deps.json
+C:\Users\ewaweru\Desktop\employees-hierarchy-master\Library\bin\Release\netstandard2.0\Library.dll
+C:\Users\ewaweru\Desktop\employees-hierarchy-master\Library\bin\Release\netstandard2.0\Library.pdb
+C:\Users\ewaweru\Desktop\employees-hierarchy-master\Library\obj\Release\netstandard2.0\Library.csprojAssemblyReference.cache
+C:\Users\ewaweru\Desktop\employees-hierarchy-master\Library\obj\Release\netstandard2.0\Library.csproj.CoreCompileInputs.cache
+C:\Users\ewaweru\Desktop\employees-hierarchy-master\Library\obj\Release\netstandard2.0\Library.AssemblyInfoInputs.cache
+C:\Users\ewaweru\Desktop\employees-hierarchy-master\Library\obj\Release\netstandard2.0\Library.AssemblyInfo.cs
+C:\Users\ewaweru\Desktop\employees-hierarchy-master\Library\obj\Release\netstandard2.0\Library.dll
+C:\Users\ewaweru\Desktop\employees-hierarchy-master\Library\obj\Release\netstandard2.0\Library.pdb
