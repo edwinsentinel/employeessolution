@@ -470,7 +470,7 @@ namespace Library
         public virtual T Find(T dataItem)
         {
             if (IsEmpty())
-                throw new Exception("List is empty.");
+                throw new Exception("List is empty!!");
 
             var currentNode = _firstNode;
             while (currentNode != null)
@@ -481,7 +481,7 @@ namespace Library
                 currentNode = currentNode.Next;
             }
 
-            throw new Exception("Item was not found.");
+            throw new Exception("Item was not found!!");
         }
 
         public virtual bool TryFindFirst(Predicate<T> match, out T found)
@@ -518,7 +518,7 @@ namespace Library
         public virtual T FindFirst(Predicate<T> match)
         {
             if (IsEmpty())
-                throw new Exception("List is empty.");
+                throw new Exception("List is empty!!");
 
             var currentNode = _firstNode;
 
@@ -536,7 +536,7 @@ namespace Library
         public virtual List<T> FindAll(Predicate<T> match)
         {
             if (IsEmpty())
-                throw new Exception("List is empty.");
+                throw new Exception("List is empty!!");
 
             var currentNode = _firstNode;
             var list = new List<T>();

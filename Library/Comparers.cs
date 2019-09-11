@@ -30,12 +30,6 @@ namespace Library
         {
             return firstValue.CompareTo(secondValue) > 0;
         }
-
-        public static bool IsLessThan<T>(this T firstValue, T secondValue) where T : IComparable<T>
-        {
-            return firstValue.CompareTo(secondValue) < 0;
-        }
-
         public static bool IsGreaterThanOrEqualTo<T>(this T firstValue, T secondValue) where T : IComparable<T>
         {
             return (firstValue.IsEqualTo(secondValue) || firstValue.IsGreaterThan(secondValue));
@@ -45,6 +39,12 @@ namespace Library
         {
             return (firstValue.IsEqualTo(secondValue) || firstValue.IsLessThan(secondValue));
         }
+        public static bool IsLessThan<T>(this T firstValue, T secondValue) where T : IComparable<T>
+        {
+            return firstValue.CompareTo(secondValue) < 0;
+        }
+
+       
         
     }
 

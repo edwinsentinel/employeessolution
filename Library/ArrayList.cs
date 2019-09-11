@@ -7,18 +7,19 @@ namespace Library
 
     public class ArrayList<T> : IEnumerable<T>
     {
-    
+
+        public const int MAXIMUM_ARRAY_LENGTH_x64 = 0X7FEFFFFF;
+        public const int MAXIMUM_ARRAY_LENGTH_x86 = 0x8000000;
+
+
+        private readonly T[] _emptyArray = new T[0];
+        private const int _defaultCapacity = 8;
+
         bool DefaultMaxCapacityIsX64 = true;
         bool IsMaximumCapacityReached = false;
 
       
-        public const int MAXIMUM_ARRAY_LENGTH_x64 = 0X7FEFFFFF; 
-        public const int MAXIMUM_ARRAY_LENGTH_x86 = 0x8000000; 
-
-       
-        private readonly T[] _emptyArray = new T[0];
-        private const int _defaultCapacity = 8;
-
+     
         
         private T[] _collection;
 
@@ -93,8 +94,12 @@ namespace Library
             }
         }
 
+        public int Capacity
+        {
+            get { return _collection.Length; }
+        }
 
-     
+
         public int Count
         {
             get
@@ -105,11 +110,7 @@ namespace Library
 
 
       
-        public int Capacity
-        {
-            get { return _collection.Length; }
-        }
-
+      
 
       
         public bool IsEmpty

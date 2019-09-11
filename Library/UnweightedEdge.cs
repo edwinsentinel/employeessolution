@@ -13,8 +13,8 @@ namespace Library
 
         public Int64 Weight
         {
-            get { throw new NotImplementedException("Unweighted edges don't have weights."); }
-            set { throw new NotImplementedException("Unweighted edges can't have weights."); }
+            get { throw new NotImplementedException("Unweighted edges don't have weights!!!"); }
+            set { throw new NotImplementedException("Unweighted edges can't have weights!!!"); }
         }
 
         public bool IsWeighted

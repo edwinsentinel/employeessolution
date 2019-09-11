@@ -39,7 +39,7 @@ namespace Library
                 }
                 catch (Exception)
                 {
-                    throw new Exception("Stack is empty.");
+                    throw new Exception("Stack is empty!!");
                 }
             }
         }
@@ -56,7 +56,7 @@ namespace Library
                 return top;
             }
 
-            throw new Exception("Stack is empty.");
+            throw new Exception("Stack is empty!!");
         }
         public T[] ToArray()
         {

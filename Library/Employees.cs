@@ -30,7 +30,7 @@ namespace Library
                     var data = p.Current.Split(',');
                     if (string.IsNullOrEmpty(data[0]))
                     {
-                        Console.WriteLine("Employee cannot have empty Id, skipping ...");
+                        Console.WriteLine("Employee cannot have empty Id");
                         continue;
                     }
 
@@ -40,7 +40,7 @@ namespace Library
                     }
                     else if (string.IsNullOrEmpty(data[1]) && ceos==1)
                     {
-                        Console.WriteLine("There can only be 1 ceo in the organization, skipping ...");
+                        Console.WriteLine("There can only be 1 ceo in the organization");
                         continue;
                     }
                
@@ -66,7 +66,7 @@ namespace Library
                     }
                     else
                     {
-                        Console.WriteLine("Salary not a valid integer, skipping ...");
+                        Console.WriteLine("Salary not a valid integer");
                     }
                     }
                     catch (Exception e)
